@@ -1,0 +1,74 @@
+/* home page styling */
+*{
+    /* mandatory margin and padding */
+    padding: 0;
+    margin: 0;
+}
+
+/* styling the main body */
+body{
+    background: rgba(165, 79, 42, 0.476);
+    background-blend-mode: darken;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    overflow: auto;
+}
+
+/* styling the header */
+
+/* styling the full header bar */
+.nav{
+    display: flex;
+    /* making the header fixed and immovable with top and position*/
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 230, 205);
+    cursor: pointer;
+    margin: 10px;
+}
+/* spacing the 2 divs in the header appropriately */
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header1{
+    /* getting the contents of this div in a straight line by flexing the display*/
+    display: flex;
+    margin: 10px;
+}
+
+/* styling the company name */
+.header1 h2{
+    font-weight: bolder;
+    margin: 3px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    color: rgba(255, 77, 0, 0.862);
+}
+
+.header2{    
+    /* getting the contents of this div in a straight line by flexing the display*/
+    display: flex;  
+}
+
+/* spacing between each list item and removing the dots */
+.header2 li{
+    list-style: none;
+    padding: 12px;
+}
+
+/* changing the anchor tag text colour */
+.header2 li a {
+    text-decoration: none;
+    color: rgb(165, 42, 42);
+    font-weight: 500;
+}
+
+/* changing the hoover color of the header */
+.header li a:hover {
+    color: black;
+}
+/* header done and dusted */
+
